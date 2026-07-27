@@ -1,0 +1,29 @@
+# Furhat Robotics
+
+> Furhat Robotics builds the Furhat social robot — a customizable robotic platform with a projected, back-projected digital face and multi-language voice synthesis for natural, multi-party human-robot conversation. Developers build interactions using the Kotlin Skill API and the Furhat SDK (with a Virtual Furhat for desktop development), stream live data via the Realtime API (WebSocket), and prototype LLM-driven characters with the FurhatAI Creator. A deprecated REST Remote API (Python client) is also available.
+
+## Developer
+- [Developer Documentation](https://docs.furhat.io/): Furhat robot and developer documentation hub — setup, SDK, Kotlin Skill API, Realtime API.
+- [Developer Zone / Downloads](https://furhat.io/downloads): Virtual Furhat Launcher and SDK downloads.
+- [SDK Request](https://www.furhatrobotics.com/requestsdk): Request access to the Furhat SDK.
+- [Realtime API](https://docs.furhat.io/): WebSocket streaming API with events and a Python client.
+- [Kotlin Skill API](https://docs.furhat.io/): Primary skill-development framework — speech, listening, gestures, attention, NLU, camera/audio feeds, GUI.
+
+## Packages
+- [furhat-remote-api (PyPI)](https://pypi.org/project/furhat-remote-api/): Official Python client for the Furhat Remote API. `pip install furhat-remote-api`
+- [furhat-core (npm)](https://www.npmjs.com/package/furhat-core): Official JS library (FurhatJSCore) for connecting to and operating FurhatOS. `npm install furhat-core`
+- [furhat-gui (npm)](https://www.npmjs.com/package/furhat-gui): Official client library (FurhatJSGUI) for connecting to a Furhat skill from a skill GUI. `npm install furhat-gui`
+
+## Code
+- [GitHub Organization](https://github.com/FurhatRobotics): FurhatJSCore, FurhatJSGUI, realtime-api-examples, example-skills, tutorials.
+- [Realtime API Examples](https://github.com/FurhatRobotics/realtime-api-examples): Examples for using the Furhat WebSocket API (Python client, Telepresence).
+- [Example Skills](https://github.com/FurhatRobotics/example-skills): Interaction examples for developer inspiration.
+- [Tutorials](https://github.com/FurhatRobotics/tutorials): Follow-along code examples from docs.furhat.io.
+
+## Company
+- [Website](https://www.furhatrobotics.com/): Company site.
+- [Furhat Robot](https://www.furhatrobotics.com/furhat-robot): The social robot product.
+- [Newsroom](https://www.furhatrobotics.com/newsroom): News and announcements.
+- [Support Portal](https://furhat.atlassian.net/servicedesk/customer/portals): Customer service desk.
+- [Contact](https://www.furhatrobotics.com/contact-us): Contact the company.
+- [Privacy Policy](https://www.furhatrobotics.com/privacy-policy): Privacy policy.

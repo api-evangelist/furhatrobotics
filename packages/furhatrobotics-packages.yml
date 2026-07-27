@@ -1,0 +1,35 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.npmjs.com/package/furhat-core, https://pypi.org/project/furhat-remote-api/
+packages:
+- language: python
+  registry: pypi
+  name: furhat-remote-api
+  url: https://pypi.org/project/furhat-remote-api/
+  install: pip install furhat-remote-api
+  version: 1.0.2
+  official: true
+  description: Furhat Remote API Python client, used to control the Furhat robot from
+    Python (requires the Furhat Remote API Skill running on the robot).
+- language: javascript
+  registry: npm
+  name: furhat-core
+  url: https://www.npmjs.com/package/furhat-core
+  install: npm install furhat-core
+  version: 0.2.0
+  official: true
+  repository: https://github.com/FurhatRobotics/FurhatJSCore
+  description: JS library (FurhatJSCore) for connecting to and operating FurhatOS.
+- language: javascript
+  registry: npm
+  name: furhat-gui
+  url: https://www.npmjs.com/package/furhat-gui
+  install: npm install furhat-gui
+  version: 0.1.0
+  official: true
+  repository: https://github.com/FurhatRobotics/FurhatJSGUI
+  description: Client library (FurhatJSGUI) for connecting to a Furhat skill from a
+    skill GUI.
+notes: Maven Central has no first-party Furhat artifact; the primary Kotlin Skill
+  API is distributed via the Furhat SDK download (furhat.io/downloads), not a public
+  Maven coordinate.

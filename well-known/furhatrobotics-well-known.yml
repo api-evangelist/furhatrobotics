@@ -1,0 +1,34 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of /.well-known/ on furhatrobotics.com, docs.furhat.io, furhat.io
+hosts:
+- host: https://www.furhatrobotics.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://docs.furhat.io
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+  - path: /.well-known/openid-configuration
+    status: 403
+  - path: /.well-known/ai-plugin.json
+    status: 403
+- host: https://furhat.io
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+notes: No .well-known discovery documents are published on any Furhat host. The docs
+  host (GitBook-hosted) returns 403 for these paths rather than a served document.

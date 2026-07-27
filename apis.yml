@@ -1,8 +1,26 @@
 aid: furhatrobotics
-name: furhatrobotics
-description: furhatrobotics is a company surfaced as a portfolio company of balderton-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/furhatrobotics.png
+name: Furhat Robotics
+description: Furhat Robotics builds the Furhat social robot, a customizable robotic
+  platform with a back-projected, animated digital face and multi-language voice synthesis
+  designed for natural, multi-party human-robot conversation. Developers build interactions
+  using the Kotlin Skill API and the Furhat SDK (with a Virtual Furhat for desktop
+  development), stream live data through the Realtime API over WebSocket, and rapidly
+  prototype LLM-driven characters with the FurhatAI Creator. A deprecated REST Remote
+  API with an official Python client is also available. Furhat is widely used across
+  academic research, clinical training, mental health, hospitality, and automotive
+  human-machine interaction.
 url: https://raw.githubusercontent.com/api-evangelist/furhatrobotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Robotics
+- Social Robotics
+- Conversational AI
+- Human-Robot Interaction
+- SDK
+- Developer Tools
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +48,36 @@ maintainers:
 common:
 - type: Website
   url: https://www.furhatrobotics.com/
+- type: DeveloperPortal
+  url: https://furhat.io/
+- type: Documentation
+  url: https://docs.furhat.io/
+- type: APIReference
+  url: https://docs.furhat.io/
+- type: GettingStarted
+  url: https://furhat.io/downloads
+- type: GitHubOrganization
+  url: https://github.com/FurhatRobotics
+- type: Support
+  url: https://furhat.atlassian.net/servicedesk/customer/portals
+- type: Blog
+  url: https://www.furhatrobotics.com/newsroom
+- type: SignUp
+  url: https://www.furhatrobotics.com/requestsdk
+- type: PrivacyPolicy
+  url: https://www.furhatrobotics.com/privacy-policy
+- type: Packages
+  url: packages/furhatrobotics-packages.yml
+- type: SDKs
+  url: packages/furhatrobotics-packages.yml
+- type: LLMsTxt
+  url: llms/furhatrobotics-llms.txt
+- type: WellKnown
+  url: well-known/furhatrobotics-well-known.yml
+- type: DomainSecurity
+  url: security/furhatrobotics-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
